@@ -33,7 +33,7 @@ jobs:
     - name: Create release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "staging/imaginefun_rp-v*.zip,staging/imaginefun_rp-v*.mcpack"
+        artifacts: staging/*.{zip,mcpack}
         allowUpdates: true
         bodyFile: "release_notes.md"
         draft: false
