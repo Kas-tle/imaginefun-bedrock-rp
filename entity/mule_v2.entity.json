@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:mule",
+      "min_engine_version": "1.2.6",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "base_brown": "textures/custom/madteaparty/teacup_01",
+        "base_white": "textures/custom/madteaparty/teacup_01",
+        "base_creamy": "textures/custom/madteaparty/teacup_01",
+        "base_chestnut": "textures/custom/madteaparty/teacup_01",
+        "base_black": "textures/custom/madteaparty/teacup_01",
+        "base_gray": "textures/custom/madteaparty/teacup_01",
+        "base_darkbrown": "textures/custom/madteaparty/teacup_01",
+        "markings_none": "textures/custom/madteaparty/teacup_01",
+        "markings_white": "textures/custom/madteaparty/teacup_01",
+        "markings_whitefield": "textures/custom/madteaparty/teacup_01",
+        "markings_whitedots": "textures/custom/madteaparty/teacup_01",
+        "markings_blackdots": "textures/custom/madteaparty/teacup_01",
+        "mule": "textures/custom/madteaparty/teacup_01",
+        "donkey": "textures/custom/madteaparty/teacup_01",
+        "skeleton": "textures/custom/madteaparty/teacup_01",
+        "zombie": "textures/custom/madteaparty/teacup_01",
+        "armor_none": "textures/custom/madteaparty/teacup_01",
+        "armor_leather": "textures/custom/madteaparty/teacup_01",
+        "armor_iron": "textures/custom/madteaparty/teacup_01",
+        "armor_gold": "textures/custom/madteaparty/teacup_01",
+        "armor_diamond": "textures/custom/madteaparty/teacup_01"
+      },
+      "geometry": {
+        "default": "geometry.teacup_01"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 31
+      }
+    }
+  }
+}

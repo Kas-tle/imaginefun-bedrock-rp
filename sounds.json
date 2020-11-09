@@ -1,0 +1,150 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "cow" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "bat" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "blaze" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "cave_spider" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "creeper" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "dolphin" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "donkey" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "drowned" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "enderman" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "endermite" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "ghast" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "horse" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "husk" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "iron_golem" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "llama" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "magma_cube" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "mule" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "ocelot" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "parrot" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "polar_bear" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "rabbit" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "shulker" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "skeleton" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "skeleton_horse" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "slime" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "snow_golem" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "spider" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "squid" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "stray" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "witch" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "wither_skeleton" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "zombie" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "zombie_horse" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "sheep" : {
+        "pitch" : [ 0.0, 0.0 ],
+        "volume" : 0.0
+      },
+      "pig" : {
+         "pitch" : [ 0.0, 0.0 ],
+         "volume" : 0.0
+       },
+       "silverfish" : {
+          "pitch" : [ 0.0, 0.0 ],
+          "volume" : 0.0
+        }
+    }
+  }
+}

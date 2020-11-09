@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:enderman",
+      "materials": {
+        "default": "entity_alphatest",
+        "invisible": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/custom/dumbotheflyingelephant/dumboblue"
+      },
+      "geometry": {
+        "default": "geometry.dumboblue"
+      },
+      "render_controllers": [ "controller.render.enderman" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 7
+      }
+    }
+  }
+}

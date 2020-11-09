@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:skeleton_horse",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "base_brown": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "base_white": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "base_creamy": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "base_chestnut": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "base_black": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "base_gray": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "base_darkbrown": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "markings_none": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "markings_white": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "markings_whitefield": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "markings_whitedots": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "markings_blackdots": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "mule": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "donkey": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "skeleton": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "zombie": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "armor_none": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "armor_leather": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "armor_iron": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "armor_gold": "textures/custom/storybooklandcanalboats/storybookland_boat",
+        "armor_diamond": "textures/custom/storybooklandcanalboats/storybookland_boat"
+      },
+      "geometry": {
+        "default": "geometry.storybookland_boat"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 32
+      }
+    }
+  }
+}

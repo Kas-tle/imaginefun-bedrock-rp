@@ -1,0 +1,281 @@
+{
+  "format_version" : "1.14.0",
+  "sound_definitions" : {
+  "entry.whistle": {
+    "sounds": [{
+      "name": "entrywhistle"
+    }],
+    "category": "master"
+  },
+  "entry.generic": {
+    "sounds": [{
+      "name": "entrysound"
+    }],
+    "category": "master"
+  },
+  "fastpass.redeem": {
+    "sounds": [{
+      "name": "fastpass"
+    }],
+    "category": "master"
+  },
+  "ge.steam": {
+    "sounds": [{
+      "name": "steam"
+    }],
+    "category": "master"
+  },
+  "stormtrooper": {
+    "sounds": [{
+      "name": "stormtrooper"
+    }],
+    "category": "master"
+  },
+  "blue_clash": {
+    "sounds": [{
+      "name": "blue_clash"
+    }],
+    "category": "master"
+  },
+  "blue_disable": {
+    "sounds": [{
+      "name": "blue_disable"
+    }],
+    "category": "master"
+  },
+  "blue_enable": {
+    "sounds": [{
+      "name": "blue_enable"
+    }],
+    "category": "master"
+  },
+  "blue_hum": {
+    "sounds": [{
+      "name": "blue_hum"
+    }],
+    "category": "master"
+  },
+  "blue_swing": {
+    "sounds": [{
+      "name": "blue_swing"
+    }],
+    "category": "master"
+  },
+  "green_clash": {
+    "sounds": [{
+      "name": "green_clash"
+    }],
+    "category": "master"
+  },
+  "green_disable": {
+    "sounds": [{
+      "name": "green_disable"
+    }],
+    "category": "master"
+  },
+  "green_enable": {
+    "sounds": [{
+      "name": "green_enable"
+    }],
+    "category": "master"
+  },
+  "green_hum": {
+    "sounds": [{
+      "name": "green_hum"
+    }],
+    "category": "master"
+  },
+  "green_swing": {
+    "sounds": [{
+      "name": "green_swing"
+    }],
+    "category": "master"
+  },
+  "purple_clash": {
+    "sounds": [{
+      "name": "purple_clash"
+    }],
+    "category": "master"
+  },
+  "purple_disable": {
+    "sounds": [{
+      "name": "purple_disable"
+    }],
+    "category": "master"
+  },
+  "purple_enable": {
+    "sounds": [{
+      "name": "purple_enable"
+    }],
+    "category": "master"
+  },
+  "purple_hum": {
+    "sounds": [{
+      "name": "purple_hum"
+    }],
+    "category": "master"
+  },
+  "purple_swing": {
+    "sounds": [{
+      "name": "purple_swing"
+    }],
+    "category": "master"
+  },
+  "red_clash": {
+    "sounds": [{
+      "name": "red_clash"
+    }],
+    "category": "master"
+  },
+  "red_hum": {
+    "sounds": [{
+      "name": "red_hum"
+    }],
+    "category": "master"
+  },
+  "red_enable": {
+    "sounds": [{
+      "name": "red_enable"
+    }],
+    "category": "master"
+  },
+  "red_swing": {
+    "sounds": [{
+      "name": "red_swing"
+    }],
+    "category": "master"
+  },
+  "white_clash": {
+    "sounds": [{
+      "name": "white_clash"
+    }],
+    "category": "master"
+  },
+  "white_disable": {
+    "sounds": [{
+      "name": "white_disable"
+    }],
+    "category": "master"
+  },
+  "white_enable": {
+    "sounds": [{
+      "name": "white_enable"
+    }],
+    "category": "master"
+  },
+  "white_hum": {
+    "sounds": [{
+      "name": "white_hum"
+    }],
+    "category": "master"
+  },
+  "white_swing": {
+    "sounds": [{
+      "name": "white_swing"
+    }],
+    "category": "master"
+  },
+  "yellow_clash": {
+    "sounds": [{
+      "name": "yellow_clash"
+    }],
+    "category": "master"
+  },
+  "yellow_disable": {
+    "sounds": [{
+      "name": "yellow_disable"
+    }],
+    "category": "master"
+  },
+  "yellow_enable": {
+    "sounds": [{
+      "name": "yellow_enable"
+    }],
+    "category": "master"
+  },
+  "yellow_hum": {
+    "sounds": [{
+      "name": "yellow_hum"
+    }],
+    "category": "master"
+  },
+  "yellow_swing": {
+    "sounds": [{
+      "name": "yellow_swing"
+    }],
+    "category": "master"
+  },
+  "han_blaster": {
+    "sounds": [{
+      "name": "han_blaster"
+    }],
+    "category": "master"
+  },
+  "kylo_clash": {
+    "sounds": [{
+      "name": "kylo_clash"
+    }],
+    "category": "master"
+  },
+  "kylo_disable": {
+    "sounds": [{
+      "name": "kylo_disable"
+    }],
+    "category": "master"
+  },
+  "kylo_enable": {
+    "sounds": [{
+      "name": "kylo_enable"
+    }],
+    "category": "master"
+  },
+  "kylo_hum": {
+    "sounds": [{
+      "name": "kylo_hum"
+    }],
+    "category": "master"
+  },
+  "kylo_swing": {
+    "sounds": [{
+      "name": "kylo_swing"
+    }],
+    "category": "master"
+  },
+  "thanossnap": {
+    "sounds": [{
+      "name": "thanossnap"
+    }],
+    "category": "master"
+  },
+  "chewieblast": {
+    "sounds": [{
+      "name": "chewieblast"
+    }],
+    "category": "master"
+  },
+  "trolley_1": {
+    "sounds": [{
+      "name": "trolley_1"
+    }],
+    "category": "master"
+  },
+  "trolley_2": {
+    "sounds": [{
+      "name": "trolley_2"
+    }],
+    "category": "master"
+  },
+  "beepbeep": {
+    "sounds": [{
+      "name": "beepbeep"
+    }],
+    "category": "master"
+  },
+  "fart": {
+    "sounds": [{
+      "name": "fart"
+    }],
+    "category": "master"
+  }
+  }
+}

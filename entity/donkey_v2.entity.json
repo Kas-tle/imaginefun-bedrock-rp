@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:donkey",
+      "materials": { "default": "entity_alphatest" },
+      "min_engine_version": "1.2.6",
+      "textures": {
+        "base_brown": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "base_white": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "base_creamy": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "base_chestnut": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "base_black": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "base_gray": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "base_darkbrown": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "markings_none": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "markings_white": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "markings_whitefield": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "markings_whitedots": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "markings_blackdots": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "mule": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "donkey": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "skeleton": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "zombie": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "armor_none": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "armor_leather": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "armor_iron": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "armor_gold": "textures/custom/kingaurthurscarousel/carouselhorse",
+        "armor_diamond": "textures/custom/kingaurthurscarousel/carouselhorse"
+      },
+      "geometry": {
+        "default": "geometry.carouselhorse"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 30
+      }
+    }
+  }
+}

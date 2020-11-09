@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:ghast",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/custom/guardiansofthegalaxy/guardians_1",
+        "shooting": "textures/custom/guardiansofthegalaxy/guardians_1"
+      },
+      "geometry": {
+        "default": "geometry.guardians_1"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 19
+      },
+      "render_controllers": [ "controller.render.ghast" ],
+      "animations": {
+        "rotate": "animation.body.rotate"
+			},
+      "scripts": {
+        "initialize": [
+          "variable.slope = 0.0;"
+        ],
+				"pre_animation": [
+          "variable.slope_calc = query.vertical_speed / query.ground_speed;",
+          "variable.slope = math.abs(variable.slope-variable.slope_calc)>0.06 ? (variable.slope-variable.slope_calc > 0 ? variable.slope-0.03 : variable.slope+0.03) : variable.slope;"
+        ],
+				"animate": [
+					"rotate"
+				]
+			}
+    }
+  }
+}

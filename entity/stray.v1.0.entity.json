@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:stray",
+      "materials": {
+        "default": "entity_alphatest",
+        "overlay": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/custom/itsasmallworld/sw_blue_back",
+        "overlay": "textures/custom/itsasmallworld/sw_blue_back"
+      },
+      "geometry": {
+        "default": "geometry.sw_blue_back",
+        "overlay": "geometry.sw_blue_back"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 27
+      },
+      "enable_attachables": false,
+      "render_controllers": [
+        "controller.render.stray_clothes",
+        "controller.render.stray"
+      ]
+    }
+  }
+}

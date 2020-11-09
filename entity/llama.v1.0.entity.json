@@ -1,0 +1,56 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:llama",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "creamy": "textures/custom/indianajones/indy_jeep_top",
+        "white": "textures/custom/indianajones/indy_jeep_top",
+        "brown": "textures/custom/indianajones/indy_jeep_top",
+        "gray": "textures/custom/indianajones/indy_jeep_top",
+        "decor_none": "textures/custom/indianajones/indy_jeep_top",
+        "decor_white": "textures/custom/indianajones/indy_jeep_top",
+        "decor_orange": "textures/custom/indianajones/indy_jeep_top",
+        "decor_magenta": "textures/custom/indianajones/indy_jeep_top",
+        "decor_light_blue": "textures/custom/indianajones/indy_jeep_top",
+        "decor_yellow": "textures/custom/indianajones/indy_jeep_top",
+        "decor_lime": "textures/custom/indianajones/indy_jeep_top",
+        "decor_pink": "textures/custom/indianajones/indy_jeep_top",
+        "decor_gray": "textures/custom/indianajones/indy_jeep_top",
+        "decor_silver": "textures/custom/indianajones/indy_jeep_top",
+        "decor_cyan": "textures/custom/indianajones/indy_jeep_top",
+        "decor_purple": "textures/custom/indianajones/indy_jeep_top",
+        "decor_blue": "textures/custom/indianajones/indy_jeep_top",
+        "decor_brown": "textures/custom/indianajones/indy_jeep_top",
+        "decor_green": "textures/custom/indianajones/indy_jeep_top",
+        "decor_red": "textures/custom/indianajones/indy_jeep_top",
+        "decor_black": "textures/custom/indianajones/indy_jeep_top",
+        "decor_wandering_trader": "textures/custom/indianajones/indy_jeep_top"
+      },
+      "geometry": {
+        "default": "geometry.indy_jeep_top"
+      },
+      "render_controllers": [ "controller.render.llama" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 38
+      },
+      "animations": {
+        "rotate": "animation.generic.rotate"
+			},
+      "scripts": {
+        "initialize": [
+          "variable.slope = 0.0;"
+        ],
+				"pre_animation": [
+          "variable.slope_calc = query.vertical_speed / query.ground_speed;",
+          "variable.slope = math.abs(variable.slope-variable.slope_calc)>0.06 ? (variable.slope-variable.slope_calc > 0 ? variable.slope-0.03 : variable.slope+0.03) : variable.slope;"
+        ],
+				"animate": [
+					"rotate"
+				]
+			}
+    }
+  }
+}

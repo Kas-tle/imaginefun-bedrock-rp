@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:zombie",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/custom/splashmountain/splash_log" },
+      "geometry": { "default": "geometry.splash_log" },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "render_controllers": [ "controller.render.zombie" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 12
+      },
+      "animations": {
+        "rotate": "animation.generic.rotate"
+			},
+      "scripts": {
+        "initialize": [
+          "variable.slope = 0.0;"
+        ],
+				"pre_animation": [
+          "variable.slope_calc = query.vertical_speed / query.ground_speed;",
+          "variable.slope = math.abs(variable.slope-variable.slope_calc)>0.06 ? (variable.slope-variable.slope_calc > 0 ? variable.slope-0.03 : variable.slope+0.03) : variable.slope;"
+        ],
+				"animate": [
+					"rotate"
+				]
+			}
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "Scary Christmas to all...",
+    "name": "imaginefun",
+    "platform_locked": false,
+    "uuid": "59cf39fa-f15e-4bab-83cd-f18692a9115f",
+    "version": [
+      0,
+      0,
+      1
+    ]
+  },
+  "modules": [
+    {
+      "description": "Scary Christmas to all...",
+      "type": "resources",
+      "uuid": "8794c1aa-2263-11eb-adc1-0242ac120002",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

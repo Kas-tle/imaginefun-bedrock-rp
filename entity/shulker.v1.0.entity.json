@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:shulker",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "undyed": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "white": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "orange": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "magenta": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "light_blue": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "yellow": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "lime": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "pink": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "gray": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "silver": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "cyan": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "purple": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "blue": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "brown": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "green": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "red": "textures/custom/caseyjrcircustrain/casey_caboose",
+        "black": "textures/custom/caseyjrcircustrain/casey_caboose"
+      },
+      "geometry": {
+        "default": "geometry.casey_caboose"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 34
+      },
+      "render_controllers": [ "controller.render.shulker" ],
+      "animations": {
+        "rotate": "animation.generic.rotate"
+			},
+      "scripts": {
+        "initialize": [
+          "variable.slope = 0.0;"
+        ],
+				"pre_animation": [
+          "variable.slope_calc = query.vertical_speed / query.ground_speed;",
+          "variable.slope = math.abs(variable.slope-variable.slope_calc)>0.06 ? (variable.slope-variable.slope_calc > 0 ? variable.slope-0.03 : variable.slope+0.03) : variable.slope;"
+        ],
+				"animate": [
+					"rotate"
+				]
+			}
+    }
+  }
+}

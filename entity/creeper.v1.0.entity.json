@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:creeper",
+      "materials": {
+        "default": "entity_alphatest",
+        "charged": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/custom/caseyjrcircustrain/casey_engine",
+        "charged": "textures/custom/caseyjrcircustrain/casey_engine"
+      },
+      "geometry": {
+        "default": "geometry.casey_engine",
+        "charged": "geometry.casey_engine"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 6
+      },
+      "render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor" ],
+      "animations": {
+        "rotate": "animation.generic.rotate"
+			},
+      "scripts": {
+        "initialize": [
+          "variable.slope = 0.0;"
+        ],
+				"pre_animation": [
+          "variable.slope_calc = query.vertical_speed / query.ground_speed;",
+          "variable.slope = math.abs(variable.slope-variable.slope_calc)>0.06 ? (variable.slope-variable.slope_calc > 0 ? variable.slope-0.03 : variable.slope+0.03) : variable.slope;"
+        ],
+				"animate": [
+					"rotate"
+				]
+			}
+    }
+  }
+}

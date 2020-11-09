@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:skeleton",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/custom/junglecruise/junglecruise_boat_front" },
+      "geometry": { "default": "geometry.junglecruise_boat_front" },
+      "render_controllers": [ "controller.render.skeleton" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 9
+      },
+      "enable_attachables": false
+    }
+  }
+}

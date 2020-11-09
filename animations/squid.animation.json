@@ -1,0 +1,47 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.squid.move" : {
+			"anim_time_update" : "query.modified_distance_moved",
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"position" : [ 0.0, 0.0, 0.0 ]
+				},
+				"tentacle1" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"tentacle2" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"tentacle3" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"tentacle4" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"tentacle5" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"tentacle6" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"tentacle7" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"tentacle8" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				}
+			}
+		},
+		"animation.squid.rotate" : {
+			"anim_time_update" : "query.modified_distance_moved",
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				}
+			}
+		}
+	}
+}

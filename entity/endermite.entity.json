@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:endermite",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/custom/findingnemosubmarinevoyage/nemo_sub"
+      },
+      "geometry": {
+        "default": "geometry.nemo_sub"
+      },
+      "render_controllers": [ "controller.render.endermite" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 25
+      }
+    }
+  }
+}

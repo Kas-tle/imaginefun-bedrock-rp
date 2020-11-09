@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:horse",
+      "min_engine_version": "1.2.6",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "base_brown": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "base_white": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "base_creamy": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "base_chestnut": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "base_black": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "base_gray": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "base_darkbrown": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "markings_none": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "markings_white": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "markings_whitefield": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "markings_whitedots": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "markings_blackdots": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "mule": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "donkey": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "skeleton": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "zombie": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "armor_none": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "armor_leather": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "armor_iron": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "armor_gold": "textures/custom/astroorbitor/astro_orbiter_rocket_01",
+        "armor_diamond": "textures/custom/astroorbitor/astro_orbiter_rocket_01"
+      },
+      "geometry": {
+        "default": "geometry.astro_orbiter_rocket_01"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 23
+      }
+    }
+  }
+}

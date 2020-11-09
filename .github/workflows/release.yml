@@ -1,0 +1,41 @@
+# This workflow will build a release
+
+name: Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    name: Release
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Get version information
+      id: version
+      uses: ncipollo/semantic-version-action@v1
+    - name: Create release assets
+      env:
+        RELEASE_TAG: ${{ steps.version.outputs.tag }}
+      run: zip -8 -r -X  imaginefun_rp-v${{steps.version.outputs.tag}}.zip *
+      run: cp *.zip imaginefun_rp-v${{steps.version.outputs.tag}}.zip
+    - run: mkdir staging && cp *.{zip,mcpack} staging
+    - name: Generate release diff
+      env:
+        BEGIN_COMMIT: ${{ steps.version.outputs.previous_tag }}
+        END_COMMIT: ${{ steps.version.outputs.tag }}
+      run: git fetch --tags --force && git log --pretty=format:"* %s (%h)" ${BEGIN_COMMIT}..${END_COMMIT} > release_notes.md
+    - name: Create release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "staging/imaginefun_rp-v*.zip,staging/imaginefun_rp-v*.mcpack"
+        allowUpdates: true
+        bodyFile: "release_notes.md"
+        draft: false
+        prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}

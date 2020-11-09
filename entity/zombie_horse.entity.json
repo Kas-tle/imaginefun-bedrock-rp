@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:zombie_horse",
+      "textures": {
+        "base_brown": "textures/custom/mainstreet/ms_car_yellow_body",
+        "base_white": "textures/custom/mainstreet/ms_car_yellow_body",
+        "base_creamy": "textures/custom/mainstreet/ms_car_yellow_body",
+        "base_chestnut": "textures/custom/mainstreet/ms_car_yellow_body",
+        "base_black": "textures/custom/mainstreet/ms_car_yellow_body",
+        "base_gray": "textures/custom/mainstreet/ms_car_yellow_body",
+        "base_darkbrown": "textures/custom/mainstreet/ms_car_yellow_body",
+        "markings_none": "textures/custom/mainstreet/ms_car_yellow_body",
+        "markings_white": "textures/custom/mainstreet/ms_car_yellow_body",
+        "markings_whitefield": "textures/custom/mainstreet/ms_car_yellow_body",
+        "markings_whitedots": "textures/custom/mainstreet/ms_car_yellow_body",
+        "markings_blackdots": "textures/custom/mainstreet/ms_car_yellow_body",
+        "mule": "textures/custom/mainstreet/ms_car_yellow_body",
+        "donkey": "textures/custom/mainstreet/ms_car_yellow_body",
+        "skeleton": "textures/custom/mainstreet/ms_car_yellow_body",
+        "zombie": "textures/custom/mainstreet/ms_car_yellow_body",
+        "armor_none": "textures/custom/mainstreet/ms_car_yellow_body",
+        "armor_leather": "textures/custom/mainstreet/ms_car_yellow_body",
+        "armor_iron": "textures/custom/mainstreet/ms_car_yellow_body",
+        "armor_gold": "textures/custom/mainstreet/ms_car_yellow_body",
+        "armor_diamond": "textures/custom/mainstreet/ms_car_yellow_body"
+      },
+      "geometry": {
+        "default": "geometry.ms_car_yellow_body"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 33
+      }
+    }
+  }
+}
