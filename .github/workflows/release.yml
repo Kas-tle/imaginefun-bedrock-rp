@@ -23,7 +23,7 @@ jobs:
       env:
         RELEASE_TAG: ${{ steps.version.outputs.tag }}
       run: zip -8 -r -X  imaginefun_rp-v${{steps.version.outputs.tag}}.zip *
-      run: cp *.zip imaginefun_rp-v${{steps.version.outputs.tag}}.zip
+    - run: cp *.zip imaginefun_rp-v${{steps.version.outputs.tag}}.mcpack
     - run: mkdir staging && cp *.{zip,mcpack} staging
     - name: Generate release diff
       env:
