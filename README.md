@@ -25,8 +25,9 @@ Resource pack for the ImagineFun Bedrock server.
      - [Video Tutorial](https://www.youtube.com/watch?v=6iq9ps9uPYE)
 
 ### Find Out More
-Join the Discord at https://discord.gg/disneyland.
-Find out more at https://imaginefun.net/.
+  - Join the server at `bedrock.imaginefun.net`
+  - Join the Discord at https://discord.gg/disneyland.
+  - Find out more at https://imaginefun.net/.
 
 ### Notice
 No copyrights are claimed for the assets contained in this pack, and all content is expressly owned by the original copyright holder.
