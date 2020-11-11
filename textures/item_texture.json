@@ -1,0 +1,11 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"astro_blaster": {
+			"textures": [
+				"textures/custom/cosmetics/astro_blaster"
+			]
+		}
+	}
+}
