@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.astro_blaster": {
+			"textures": [
+				"Texture.astro_blaster"
+			],
+			"geometry": "Geometry.astro_blaster",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			]
+		}
+	}
+}
