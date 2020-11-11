@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.astro_blaster.hold": {
+			"loop": true,
+			"bones": {
+				"astro_blaster": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"rightItem": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.astro_blaster.first_person.hold": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"astro_blaster": {
+					"rotation": [87.5, 82.5, -7.5],
+					"position": [-14.5, 0, -6]
+				}
+			}
+		}
+	}
+}
