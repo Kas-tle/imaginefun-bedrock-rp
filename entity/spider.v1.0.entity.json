@@ -19,18 +19,21 @@
         "texture_index": 11
       },
       "animations": {
-        "rotate": "animation.generic.rotate"
+        "rotate": "animation.generic.rotate",
+        "bank": "animation.generic.banking"
 			},
       "scripts": {
         "initialize": [
-          "variable.slope = 0.0;"
+          "variable.angle_slope = 0.0;",
+          "variable.angle_slope_calc = 0.0;"
         ],
 				"pre_animation": [
-          "variable.slope_calc = query.vertical_speed / query.ground_speed;",
-          "variable.slope = math.abs(variable.slope-variable.slope_calc)>0.06 ? (variable.slope-variable.slope_calc > 0 ? variable.slope-0.03 : variable.slope+0.03) : variable.slope;"
+          "variable.angle_slope_calc = query.ground_speed * query.yaw_speed;",
+          "variable.angle_slope = math.abs((variable.angle_slope ?? 0.0)-variable.angle_slope_calc)>0.06 ? (variable.angle_slope-variable.angle_slope_calc > 0 ? (variable.angle_slope ?? 0.0)-0.05 : (variable.angle_slope ?? 0.0)+0.05) : (variable.angle_slope ?? 0.0);"
         ],
 				"animate": [
-					"rotate"
+					"rotate",
+          "bank"
 				]
 			}
     }
