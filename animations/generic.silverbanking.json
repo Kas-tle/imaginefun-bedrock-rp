@@ -5,7 +5,7 @@
 			"loop": true,
 			"bones": {
 				"bodyPart_2": {
-					"rotation": [0, 0, "( ( 8 * (variable.angleslope) ) / ( 3 + math.sqrt( 25 + 80/3 * math.pow(variable.angleslope, 2) ) ) ) * (-70/3.14)"]
+					"rotation": [0, 0, "math.atan(variable.angle_slope / 100.0) * -5"]
 				}
 			}
 		}
