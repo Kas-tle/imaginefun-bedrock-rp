@@ -20,13 +20,6 @@
         "rotate": "animation.generic.rotate"
 			},
       "scripts": {
-        "initialize": [
-          "variable.slope = 0.0;"
-        ],
-				"pre_animation": [
-          "variable.slope_calc = query.vertical_speed / query.ground_speed;",
-          "variable.slope = math.abs(variable.slope-variable.slope_calc)>0.06 ? (variable.slope-variable.slope_calc > 0 ? variable.slope-0.03 : variable.slope+0.03) : variable.slope;"
-        ],
 				"animate": [
 					"rotate"
 				]
