@@ -12,6 +12,9 @@
         "texture": "spawn_egg",
         "texture_index": 28
       },
+      "animations": {
+        "rotate": "animation.generic.rotate"
+			},
       "scripts": {
 				"animate": [
 					"rotate"
