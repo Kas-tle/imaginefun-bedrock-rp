@@ -5,11 +5,12 @@
       "identifier": "minecraft:blaze",
       "min_engine_version": "1.8.0",
       "materials": {
-        "body": "entity_alphatest",
-        "head": "entity_alphatest"
+        "body": "villager_v2_masked",
+        "head": "villager_v2_masked"
       },
       "textures": {
-        "default": "textures/custom/autopia/autopia_car04"
+        "default": "textures/custom/autopia/autopia_car04",
+        "safe": "textures/custom/cosmetics/safe"
       },
       "geometry": {
         "default": "geometry.autopia_car04"
@@ -26,13 +27,6 @@
         "rotate": "animation.generic.rotate"
 			},
       "scripts": {
-        "initialize": [
-          "variable.slope = 0.0;"
-        ],
-				"pre_animation": [
-          "variable.slope_calc = query.vertical_speed / query.ground_speed;",
-          "variable.slope = math.abs(variable.slope-variable.slope_calc)>0.06 ? (variable.slope-variable.slope_calc > 0 ? variable.slope-0.03 : variable.slope+0.03) : variable.slope;"
-        ],
 				"animate": [
 					"rotate"
 				]
