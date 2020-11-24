@@ -1,3 +1,4 @@
+[![GitHub Super-Linter](https://github.com/Kas-tle/imaginefun-bedrock-rp/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 # ImagineFun Bedrock Resource Pack
 Resource pack for the ImagineFun Bedrock server.
 
