@@ -5,7 +5,7 @@
 			"loop": true,
 			"bones": {
 				"bone": {
-					"rotation": [0, 0, "math.atan(variable.angle_slope / 100.0) * -5"]
+					"rotation": [0, 0, "math.atan(variable.angle_slope / 100.0) * -1"]
 				}
 			}
 		}
