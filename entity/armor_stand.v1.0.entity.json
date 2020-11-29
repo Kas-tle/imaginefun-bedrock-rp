@@ -24,6 +24,8 @@
         "cancan_b_pose": "animation.armor_stand.cancan_b_pose",
         "hero_pose": "animation.armor_stand.hero_pose",
         "wiggle": "animation.armor_stand.wiggle",
+        "controller.pose": "controller.animation.armor_stand.pose",
+        "controller.wiggling": "controller.animation.armor_stand.wiggle",
         "triggertest": "animation.armor_stand.triggertest"
       },
       "scripts": {
