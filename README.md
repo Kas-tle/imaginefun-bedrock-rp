@@ -19,11 +19,15 @@ Resource pack for the ImagineFun Bedrock server.
      - [Video Tutorial](https://www.youtube.com/watch?v=dhgAYTmmH7U)
    - **XBox**
      - Resource packs are not supported on XBox, but you can attempt to follow the workaround in this [tutorial](https://www.youtube.com/watch?v=NqzeCGklAp8).
+     - Alternatively, if you have an [XBox Developer Account](https://developer.microsoft.com/en-us/store/register/), you can activate your XBox in [developer mode](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/devkit-activation) and use the file browser in the [Device Portal](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/device-portal-xbox) to directly access your system files and install the pack.
+     - The location of resource packs on XBox is `~/Local/packages/Microsoft.MinecraftUWPConsole_8wekyb3d8bbwe/LocalState/games/com.mojang/resource_packs`
    - **Windows**
      - Press Win+R
      - Enter the directory: `%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs`
      - Place your the .mcpack file in the `resource_packs` folder.
      - [Video Tutorial](https://www.youtube.com/watch?v=6iq9ps9uPYE)
+   - **Platform Agnostic Method**
+     - If all else fails, you could run a server on your local network and define the resource pack as the current version of this pack from the releases tab. After joining the created server once, your client will cache the pack, and this cache can be accessed whenever a resource pack is required by a server.
 
 ### Find Out More
   - Join the server at `bedrock.imaginefun.net`
