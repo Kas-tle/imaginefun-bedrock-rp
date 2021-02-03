@@ -28,6 +28,10 @@ Resource pack for the ImagineFun Bedrock server.
      - [Video Tutorial](https://www.youtube.com/watch?v=6iq9ps9uPYE)
    - **Platform Agnostic Method**
      - If all else fails, you could run a server on your local network and define the resource pack as the current version of this pack from the releases tab. After joining the created server once, your client will cache the pack, and this cache can be accessed whenever a resource pack is required by a server.
+     - I have temporarily created a server to facilitate this process, primarily for console users who must use BedrockConnect to join. The direct IP is: `95.217.113.104`.
+       - First, join `95.217.113.104` using [BedrockConnect](https://github.com/Pugmatt/BedrockConnect). Note that currently, due to Sony doing some degree of DNS traffic regulation, you must use a local instance of BedrockConnect if attempting to connect on a PS4. Refer to their linked repo to facilitate this.
+       - Accept the resource pack and wait for the download to complete before disconnecting.
+       - Connection to `bedrock.imaginefun.net` should now proceed normally without a pack download, as the resource pack is now cached locally.
 
 ### Find Out More
   - Join the server at `bedrock.imaginefun.net`
