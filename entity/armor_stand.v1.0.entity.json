@@ -26,12 +26,15 @@
         "wiggle": "animation.armor_stand.wiggle",
         "controller.pose": "controller.animation.armor_stand.pose",
         "controller.wiggling": "controller.animation.armor_stand.wiggle",
-        "triggertest": "animation.armor_stand.triggertest"
+        "triggertest": "animation.armor_stand.triggertest",
+        "geyser_pose": "animation.armor_stand.geyser_pose"
       },
       "scripts": {
         "initialize": [
-          "variable.armor_stand.pose_index = 0;",
-          "variable.armor_stand.hurt_time = 0;"
+          "v.armor_stand.hurt_time = 0;",
+          "v.armor_stand.pose_index = 0;",
+          "variable.armor_stand.hurt_time = 0;",
+          "variable.armor_stand.pose_index = 0;"
         ],
         "pre_animation": [
           "variable.has_ice = query.get_equipped_item_name('main_hand') == 'ice';"
@@ -40,15 +43,27 @@
           "controller.pose",
           "controller.wiggling",
           {
-          "triggertest": "variable.has_ice"
+            "controller.pose": "!q.is_bribed"
+          },
+          {
+            "controller.wiggling": "!q.is_bribed"
+          },
+          {
+            "geyser_pose": "q.is_bribed"
+          },
+          {
+            "triggertest": "variable.has_ice"
           }
         ]
       },
       "geometry": {
         "default": "geometry.armor_stand"
       },
-      "render_controllers": [ "controller.render.armor_stand" ],
-      "enable_attachables": true
+      "render_controllers": [
+        "controller.render.armor_stand"
+      ],
+      "enable_attachables": true,
+      "min_engine_version": "1.8.0"
     }
   }
 }
