@@ -1,25 +1,25 @@
 {
   "format_version": 1,
   "header": {
-    "description": "Merry Christmas to all...",
-    "name": "imaginefun",
+    "description": "Resource pack for the ImagineFun server",
+    "name": "ImagineFun",
     "platform_locked": false,
     "uuid": "59cf39fa-f15e-4bab-83cd-f18692a9115f",
     "version": [
       1,
-      0,
-      10
+      1,
+      0
     ]
   },
   "modules": [
     {
-      "description": "Merry Christmas to all...",
+      "description": "Resource pack for the ImagineFun server",
       "type": "resources",
       "uuid": "8794c1aa-2263-11eb-adc1-0242ac120002",
       "version": [
         1,
-        0,
-        10
+        1,
+        0
       ]
     }
   ]
