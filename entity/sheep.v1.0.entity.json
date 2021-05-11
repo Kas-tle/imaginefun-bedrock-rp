@@ -3,6 +3,7 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:sheep",
+      "min_engine_version": "1.8.0",
       "materials": { "default": "entity_alphatest" },
       "textures": {
         "default": "textures/custom/caseyjrcircustrain/casey_openair1"

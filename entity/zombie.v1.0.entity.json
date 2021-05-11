@@ -3,14 +3,10 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:zombie",
+      "min_engine_version": "1.8.0",
       "materials": { "default": "entity_alphatest" },
       "textures": { "default": "textures/custom/splashmountain/splash_log" },
       "geometry": { "default": "geometry.splash_log" },
-      "scripts": {
-        "pre_animation": [
-          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
-        ]
-      },
       "render_controllers": [ "controller.render.zombie" ],
       "spawn_egg": {
         "texture": "spawn_egg",
@@ -20,6 +16,9 @@
         "rotate": "animation.generic.rotate"
 			},
       "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ],
 				"animate": [
 					"rotate"
 				]

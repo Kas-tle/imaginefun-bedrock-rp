@@ -3,6 +3,7 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:llama",
+      "min_engine_version": "1.8.0",
       "materials": { "default": "entity_alphatest" },
       "textures": {
         "creamy": "textures/custom/indianajones/indy_jeep_top",

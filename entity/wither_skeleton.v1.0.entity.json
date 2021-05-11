@@ -3,6 +3,7 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:wither_skeleton",
+      "min_engine_version": "1.8.0",
       "materials": { "default": "entity_alphatest" },
       "textures": { "default": "textures/custom/grizzlyriverrun/grr_raft1" },
       "geometry": { "default": "geometry.grr_raft1" },

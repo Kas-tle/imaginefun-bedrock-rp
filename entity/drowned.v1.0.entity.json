@@ -3,6 +3,7 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:drowned",
+      "min_engine_version": "1.16.0",
       "materials": {
         "default": "entity_alphatest"
       },
