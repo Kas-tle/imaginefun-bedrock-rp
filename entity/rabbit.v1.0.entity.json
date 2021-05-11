@@ -1,51 +1,36 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:rabbit",
-      "materials": {
-        "default": "rabbit"
-      },
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
       "textures": {
-        "brown": "textures/entity/rabbit/brown",
-        "white": "textures/entity/rabbit/white",
-        "black": "textures/entity/rabbit/blackrabbit",
-        "white_splotched": "textures/entity/rabbit/white_splotched",
-        "gold": "textures/entity/rabbit/gold",
-        "salt": "textures/entity/rabbit/salt",
-        "toast": "textures/entity/rabbit/toast",
+        "brown": "textures/custom/pinocchiosdaringjourney/pinocchio_cart",
+        "white": "textures/custom/pinocchiosdaringjourney/pinocchio_cart",
+        "black": "textures/custom/pinocchiosdaringjourney/pinocchio_cart",
+        "white_splotched": "textures/custom/pinocchiosdaringjourney/pinocchio_cart",
+        "gold": "textures/custom/pinocchiosdaringjourney/pinocchio_cart",
+        "salt": "textures/custom/pinocchiosdaringjourney/pinocchio_cart",
+        "toast": "textures/custom/pinocchiosdaringjourney/pinocchio_cart",
         "caerbannog": "textures/entity/rabbit/caerbannog"
       },
       "geometry": {
-        "default": "geometry.rabbit.v1.8"
+        "default": "geometry.pinocchio_cart"
       },
-      "render_controllers": [
-        "controller.render.rabbit"
-      ],
+      "render_controllers": [ "controller.render.rabbit" ],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 24
       },
       "animations": {
-        "rotate": "animation.generic.rotate",
-        "move": "animation.rabbit.move",
-        "baby_transform": "animation.rabbit.baby_transform",
-        "look_at_target": "animation.common.look_at_target"
-      },
+        "rotate": "animation.generic.rotate"
+			},
       "scripts": {
-        "animate": [
-          "rotate"
-        ]
-      },
-      "min_engine_version": "1.8.0",
-      "animation_controllers": [
-        {
-          "general": "controller.animation.rabbit.general"
-        },
-        {
-          "baby": "controller.animation.rabbit.baby"
-        }
-      ]
+				"animate": [
+					"rotate"
+				]
+			}
     }
   }
 }
