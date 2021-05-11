@@ -1,15 +1,15 @@
 {
-  "format_version": 1,
+  "format_version": 2,
   "header": {
     "description": "Resource pack for the ImagineFun server",
     "name": "ImagineFun",
-    "platform_locked": false,
     "uuid": "59cf39fa-f15e-4bab-83cd-f18692a9115f",
     "version": [
       1,
       1,
-      0
-    ]
+      1
+    ],
+    "min_engine_version": [ 1, 16, 0 ]
   },
   "modules": [
     {
@@ -19,7 +19,7 @@
       "version": [
         1,
         1,
-        0
+        1
       ]
     }
   ]
