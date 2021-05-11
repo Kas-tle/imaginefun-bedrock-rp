@@ -15,7 +15,7 @@
         "bottom_layer": "textures/entity/iron_golem"
       },
       "geometry": {
-        "default": "geometry.irongolem"
+        "default": "geometry.hm_cart"
       },
       "render_controllers": [
         "controller.render.iron_golem"
