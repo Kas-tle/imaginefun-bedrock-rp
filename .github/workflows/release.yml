@@ -19,6 +19,16 @@ jobs:
     - name: Get version information
       id: version
       uses: ncipollo/semantic-version-action@v1
+    - name: Setup Go
+      uses: actions/setup-go@v2
+      with: 
+        go-version: '^1.13.1'
+    - name: Minify JSON files
+      run: |
+        wget https://github.com/tdewolff/minify/releases/download/v2.9.16/minify_linux_amd64.tar.gz
+        tar -zxvf minify_linux_amd64.tar.gz minify && rm minify_linux_amd64.tar.gz
+        for i in $(find . -type f -name "*.json"); do ./minify ${i} -o temp && mv temp ${i}; done
+        rm minify
     - name: Create release assets
       env:
         RELEASE_TAG: ${{ steps.version.outputs.tag }}
