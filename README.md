@@ -2,6 +2,8 @@
 # ImagineFun Bedrock Resource Pack
 Resource pack for the ImagineFun Bedrock server.
 
+This resource pack has been merged with [GeyserOptionalPack](https://github.com/GeyserMC/GeyserOptionalPack), a resource pack developed to extend the functionality of the [Geyser](https://github.com/GeyserMC/Geyser) proxy, which ImagineFun utilizes to provide its Bedrock server. See the linked repository for specific [developer documentation](https://github.com/GeyserMC/GeyserOptionalPack/blob/master/developer_documentation.md) with regards to any optional pack components. Components from this pack are included under the MIT license, for which notice is provided.
+
 ### Installing
  - Download the latest release of the resource pack from the [releases](https://github.com/Kas-tle/imaginefun-bedrock-rp/releases/latest) tab.
  - Open the mcpack file with your Bedrock client. These steps will vary by platform.
